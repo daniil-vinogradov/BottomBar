@@ -72,7 +72,7 @@ dependencies {
 
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = publishedGroupId                               // Maven Group ID for the artifact
+group = 'com.github.daniil-vinogradov'
 
 install {
     repositories.mavenInstaller {
