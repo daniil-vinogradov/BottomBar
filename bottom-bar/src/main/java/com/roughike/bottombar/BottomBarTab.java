@@ -360,10 +360,6 @@ public class BottomBarTab extends LinearLayout {
         this.indexInContainer = indexInContainer;
     }
 
-    void setIconTint(int tint) {
-        iconView.setColorFilter(tint);
-    }
-
     public int getTitleTextAppearance() {
         return titleTextAppearanceResId;
     }
@@ -449,7 +445,6 @@ public class BottomBarTab extends LinearLayout {
 
     private void setColors(int color) {
         if (iconView != null) {
-            iconView.setColorFilter(color);
             iconView.setTag(R.id.bb_bottom_bar_color_id, color);
         }
 
